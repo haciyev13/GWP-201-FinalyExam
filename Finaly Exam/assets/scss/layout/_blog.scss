@@ -1,0 +1,49 @@
+.blog {
+    width: 100%;
+  .content {
+    .row {
+      .flx {
+        display: flex;
+        .img {
+          img {
+            width: 300px;
+            height: 300px;
+          }
+        }
+        .texts {
+          background-color: aliceblue;
+          padding: 15px;
+          .shoping {
+            font-weight: bold;
+            padding: 10px 0;
+          }
+          .smalling {
+            color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width:767px){
+    .content {
+        .row {
+          .flx {
+            display: flex;
+            width: 100%;
+            margin: 10px;
+            .texts {
+              background-color: aliceblue;
+              padding: 15px;
+              .shoping {
+                font-weight: bold;
+                padding: 10px 0;
+              }
+              .smalling {
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+        }
+      }
+  }
+}

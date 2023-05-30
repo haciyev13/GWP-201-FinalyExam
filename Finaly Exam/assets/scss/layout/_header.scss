@@ -1,0 +1,101 @@
+header {
+  width: 100%;
+  .content {
+    width: 100%;
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .header-text {
+        width: 50%;
+        background-color: #d4eaf5;
+        height: 100vh;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .header-left {
+          .furnisht {
+            display: none;
+          }
+          p {
+            font-weight: 200;
+            font-size: 45px;
+            line-height: 1.2;
+          }
+          .text-p {
+            font-size: 22px;
+            line-height: 40px;
+            color: rgba(0, 0, 0, 0.4);
+          }
+          h4 {
+            font-weight: 700;
+            font-size: 47px;
+            padding: 15px 0;
+          }
+          button {
+            background: #fff;
+            border: 1px solid #fff;
+            color: #267aa4;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+          }
+        }
+      }
+      .header-right {
+        width: 50%;
+        height: 100vh;
+        background-image: url(/assets/img/bg_2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        li{
+            i{
+                display: none;
+            }
+        }
+        nav {
+          padding: 10px;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+              .home {
+                color: #fff;
+              }
+              a {
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .content {
+      .furnisht {
+        display: block;
+      }
+      .header {
+        .header-text {
+          .header-left {
+            display: none;
+          }
+          .header-right{
+            nav{
+                display: none;
+            }
+            li{
+                i{
+                    display: block;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}

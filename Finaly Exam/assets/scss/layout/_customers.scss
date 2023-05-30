@@ -1,0 +1,86 @@
+.customers {
+  .content {
+    .testimonnial{
+        padding-top: 70px;
+    }
+    .card-scort {
+      height: 60vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .card2 {
+        background-color: #cf7500;
+        .farfar{
+            color: #fff !important;
+        }
+      }
+      .cardt {
+        padding: 20px;
+        .card-foot {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          img {
+            border-radius: 50%;
+            width: 100px;
+          }
+          .foot-text{
+            .roger{
+                color: #fff;
+            }
+          }
+        }
+        p{
+            padding: 15px;
+            // line-height: 30px;
+            color: rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
+  @media only screen and (max-width:767px){
+    .content {
+      .testimonnial{
+          padding-top: 70px;
+      }
+      .card-scort {
+        height: 150vh;
+        width: 100%;
+        flex-direction: column;
+        
+        gap: 30px;
+        .card2 {
+          background-color: #cf7500;
+          .farfar{
+              color: #fff !important;
+          }
+        }
+        .cardt {
+          padding: 20px;
+          width: 100%;
+          .card-foot {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            img {
+              border-radius: 50%;
+              width: 100px;
+            }
+            .foot-text{
+              .roger{
+                  color: #fff;
+              }
+            }
+          }
+          p{
+              padding: 15px;
+              // line-height: 30px;
+              color: rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+    }
+  }
+}

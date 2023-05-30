@@ -1,0 +1,45 @@
+.about{
+    height: 100vh;
+    background-image: url(/assets/img/bg_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    .content{
+        .row{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            .about-furnis{
+                font-weight: bold;
+                color: rgba(0, 0, 0, 0.3);
+            }
+            h3{
+                font-size: 45px;
+                padding-bottom: 20px;
+            }
+            .text-far{
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 22px;
+            }
+            .icons{
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                i{
+                    font-size: 55px;
+                    color: #CF7500;
+                }
+                a{
+                    font-size: 20px;
+                    color: #CF7500;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width:767px){
+        
+    }
+}
